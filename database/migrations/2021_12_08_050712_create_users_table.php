@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('user_ip')->nullable();
             $table->string('is_user')->nullable(0);
             $table->string('is_admin')->nullable(0);
+            $table->string('verification_code');
             $table->string('reset_password_code')->nullable();
             $table->string('image')->nullable();
             $table->string('password');
