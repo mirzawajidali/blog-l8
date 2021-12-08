@@ -27,5 +27,6 @@
     <script src="{{ asset('public/blog/js/plugins.js')}}"></script>
     <!-- Active js -->
     <script src="{{ asset('public/blog/js/active.js')}}"></script>
+
 </body>
 </html>

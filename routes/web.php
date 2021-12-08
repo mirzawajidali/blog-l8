@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth;
 use App\Http\Controllers\Admin\Dashboard;
+use App\Http\Controllers\Blog\Contact;
 use App\Http\Controllers\Blog\Home;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +17,5 @@ Route::prefix('admin')->group(function () {
 
 Route::prefix('/')->group(function(){
     Route::get('/',[Home::class, 'home']);
+    Route::get('contact',[Contact::class, 'contact']);
 });
