@@ -1,0 +1,36 @@
+	#file-upload {
+		position: absolute;
+		left: -9999px;
+	}
+
+	label[for="file-upload"] {
+		padding: 1em;
+		display: inline-block;
+		background: #064D06;
+		color: #fff;
+		cursor: pointer;
+
+		&:hover {
+			color: #fff
+		}
+	}
+
+	.btn-upload {
+		padding: 1em;
+		display: inline-block;
+		background: #011401;
+		color: #fff;
+		cursor: pointer;
+		margin-left: -5px;
+		border: 0;
+	}
+
+	#filename {
+		padding: 1em;
+		float: left;
+		width: 380px;
+		white-space: nowrap;
+		overflow: hidden;
+		color: #fff;
+		background: #3c763d;
+	}

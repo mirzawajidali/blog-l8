@@ -11,4 +11,5 @@ class Contact extends Controller
     public function contact(){
         return view('blog.pages.contact');
     }
+
 }
